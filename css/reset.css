@@ -1,0 +1,175 @@
+body,
+html {
+	font-family: "Microsoft YaHei";
+	background: #fff;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	font-size: 16px;
+	color: #333;
+	/* overflow-x: hidden; */
+}
+
+
+select,
+textarea,
+input {
+	/*解决表单宽度不一致的问题*/
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	border: none;
+}
+
+a,
+abbr,
+acronym,
+address,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+	margin: 0;
+	padding: 0
+}
+
+address,
+caption,
+cite,
+code,
+em,
+figcaption,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre,
+strong,
+th {
+	font-weight: 400;
+	font-style: normal;
+}
+
+dd,
+dl,
+dt,
+li,
+ul {
+	list-style: none;
+}
+
+fieldset,
+iframe,
+img {
+	border: 0;
+	vertical-align: bottom
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+video {
+	display: block;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+input,
+select {
+	outline: 0;
+}
+
+address,
+cite,
+em,
+var {
+	font-style: normal;
+}
+

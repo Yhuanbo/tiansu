@@ -1,0 +1,223 @@
+header nav .nav > ul > li {
+  background-color: transparent !important;
+}
+header nav .nav > ul > li:nth-of-type(5) {
+  background-color: #9c2727 !important;
+}
+/* ***********主体内容************************** */
+main .con1 {
+  padding: 55px 0;
+  background-color: #f2f2f2;
+}
+main .con1 .image {
+  width: 500px;
+  position: relative;
+  overflow: hidden;
+}
+main .con1 .image a,
+main .con1 .image img {
+  display: block;
+  color: #fff;
+  width: 100%;
+  transition: all 0.5s;
+}
+main .con1 .image p {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 93%;
+  padding: 11px 3.5%;
+  background-color: rgba(214, 0, 15, 0.8);
+  font-size: 18px;
+  line-height: 2;
+}
+main .con1 .image:hover img {
+  transform: scale(1.05);
+}
+main .con1 ul {
+  width: 760px;
+}
+main .con1 ul li {
+  height: 100px;
+  background-color: #fff;
+  margin-bottom: 17px;
+}
+main .con1 ul li .time {
+  width: 88px;
+  height: 72px;
+  padding: 14px 0;
+  background-color: #666;
+  font-size: 14px;
+  line-height: 32px;
+  color: #fff;
+  text-align: center;
+  transition: all 0.5s;
+}
+main .con1 ul li .time p:first-of-type {
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: bold;
+}
+main .con1 ul li a {
+  width: 600px;
+  height: 48px;
+  padding: 26px 31px;
+  font-size: 18px;
+  color: #666;
+  transition: all 0.5s;
+  display: table;
+}
+main .con1 ul li a span {
+  display: table-cell;
+  vertical-align: middle;
+}
+main .con1 ul li:hover .time {
+  background-color: #d6000f;
+}
+main .con1 ul li:hover a {
+  color: #d6000f;
+}
+main .con2 ul {
+  margin-bottom: 70px;
+}
+main .con2 ul li {
+  padding: 50px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+main .con2 ul li .time {
+  width: 70px;
+  margin-right: 45px;
+}
+main .con2 ul li .time p:first-of-type {
+  font-weight: bold;
+  font-size: 24px;
+  color: #a8a8a8;
+  text-align: center;
+  border-bottom: 1px solid #cecece;
+}
+main .con2 ul li .time p:nth-of-type(2) {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+}
+main .con2 ul li .right {
+  width: calc(100% - 115px);
+}
+main .con2 ul li .right a,
+main .con2 ul li .right img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+main .con2 ul li .right > a {
+  width: 200px;
+  height: 130px;
+  margin-right: 10px;
+}
+main .con2 ul li .right .right-r {
+  width: 74%;
+  float: left;
+}
+main .con2 ul li .right .right-r a {
+  font-size: 14px;
+  color: #666;
+  line-height: 2;
+}
+main .con2 ul li .right .right-r a:first-of-type {
+  font-size: 18px;
+}
+main .con2 ul li .right .right-r a:last-of-type {
+  color: #009afc;
+  margin-top: 10px;
+}
+main .con2 .page {
+  text-align: center;
+  font-size: 0;
+  margin-bottom: 170px;
+}
+main .con2 .page a {
+  background-color: #eaeaea;
+  border: 1px solid #EAEAEA;
+  color: #757575;
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+  padding: 3px 6px;
+  padding-bottom: 2px;
+  font-size: 12px;
+}
+main .con2 .page a:hover,
+main .con2 .page a:first-of-type {
+  color: #fff;
+  background-color: #D6000F;
+  border-color: #D6000F;
+}
+/* *********媒体查询************** */
+@media screen and (max-width: 1366px) {
+  main .wd {
+    width: 90%;
+  }
+  main .path .wd {
+    width: 100%;
+  }
+  main .con1 .image {
+    display: none;
+  }
+  main .con1 ul {
+    width: 100%;
+  }
+  main .con2 ul li .right > a {
+    display: none;
+  }
+}
+@media screen and (max-width: 1023px) {
+  main .con1 .image {
+    display: block;
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  main .con1 ul li {
+    height: 60px;
+  }
+  main .con1 ul li .time {
+    width: 76px;
+    height: 56px;
+    padding: 2px 0;
+    line-height: 28px;
+  }
+  main .con1 ul li .time p:first-of-type {
+    line-height: 28px;
+  }
+  main .con1 ul li a {
+    width: calc(100% - 118px);
+    height: 44px;
+    padding: 8px 21px;
+    font-size: 13px;
+  }
+  main .con1 ul li a span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  main .con2 ul li {
+    padding-bottom: 8%;
+    margin-bottom: 8%;
+  }
+  main .con2 ul li .time {
+    display: none;
+  }
+  main .con2 ul li .right {
+    width: 100%;
+  }
+  main .con2 ul li .right > a {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto 20px;
+  }
+  main .con2 ul li .right .right-r {
+    width: 100%;
+  }
+}

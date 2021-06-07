@@ -1,0 +1,61 @@
+header nav .nav > ul > li {
+  background-color: transparent !important;
+}
+header nav .nav > ul > li:nth-of-type(6) {
+  background-color: #9c2727 !important;
+}
+/* **********主体内容*************** */
+main .con {
+  padding: 3.5% 0 8%;
+}
+main .con .wd {
+  position: relative;
+  background-color: #d6000f;
+}
+main .con .wd .left {
+  width: 50%;
+  padding: 2.6% 0 0 4.3%;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+}
+main .con .wd .left h2 {
+  font-size: 16px;
+  line-height: 2;
+}
+main .con .wd .left .txt {
+  padding-bottom: 28px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 20px;
+}
+main .con .wd .left .txt:last-of-type {
+  border: 0;
+}
+main .con .wd .right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 41%;
+  height: 100%;
+  overflow: hidden;
+  background: url(../img/img38.jpg) no-repeat center / cover;
+}
+main .con .wd .right img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+/* ***********媒体查询***************** */
+@media screen and (max-width: 1366px) {
+  main .con .wd {
+    width: 90%;
+  }
+  main .con .wd .left {
+    width: 92%;
+    padding: 4%;
+  }
+  main .con .wd .right {
+    position: static;
+    width: 100%;
+  }
+}

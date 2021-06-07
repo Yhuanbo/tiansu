@@ -1,0 +1,78 @@
+/* *********主体内容********* */
+main .con-list .item .fir {
+  width: 310px;
+  height: 292px;
+}
+main .con-list .item .fir p {
+  background: #dedede url(../img/bg_sign05.png) no-repeat right center;
+  margin-top: 16px;
+  font-size: 14px;
+  line-height: 38px;
+  color: #666;
+  text-align: center;
+  transition: all 0.5s;
+}
+main .con-list .item .fir:hover p {
+  background-color: #d6000f;
+  color: #fff;
+}
+main .con-list .item .fir,
+main .con-list .item .in {
+  border: 1px solid #e1e1e1;
+  transition: all 0.5s;
+}
+main .con-list .item .fir a,
+main .con-list .item .in a,
+main .con-list .item .fir img,
+main .con-list .item .in img {
+  display: block;
+  width: 100%;
+}
+main .con-list .item .fir:hover,
+main .con-list .item .in:hover {
+  border-color: #d6000f;
+}
+main .con-list .item .in {
+  width: 143px;
+  height: 138px;
+  margin: 0 0 14px 16px;
+  text-align: center;
+}
+main .con-list .item .in a {
+  color: #666;
+  font-size: 14px;
+  height: 100%;
+}
+main .con-list .item .in a:hover {
+  color: #d6000f;
+}
+main .con-list .item .in a p {
+  font-size: 14px;
+  line-height: 2;
+}
+main .con-list .item .in img {
+  height: 110px;
+}
+main .con-list .item .in:last-of-type a p {
+  background-color: #f4f4f4;
+}
+/* ************媒体查询****************** */
+@media screen and (max-width: 1366px) {
+  main .con-list .wd {
+    width: 956px;
+  }
+}
+@media screen and (max-width: 1366px) {
+  main .con-list .wd {
+    width: 312px;
+  }
+  main .con-list .item .in {
+    margin: 0 0 15px 0;
+  }
+  main .con-list .item .in:nth-of-type(even) {
+    float: right;
+  }
+  main .con-list .item .fir {
+    margin-bottom: 15px;
+  }
+}

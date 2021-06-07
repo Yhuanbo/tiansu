@@ -1,0 +1,106 @@
+/* ************服务体系***************** */
+main .service {
+  padding: 60px 0 132px;
+  background-color: #f2f2f2;
+}
+main .service h2 {
+  margin-bottom: 6.5%;
+  text-align: center;
+  position: relative;
+}
+main .service h2:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: -11px;
+  width: 56px;
+  height: 2px;
+  background-color: #C2C2C2;
+  margin-left: -28px;
+}
+main .service .service-con img {
+  display: block;
+  width: 42%;
+}
+main .service .service-con .deta {
+  width: 56%;
+  font-size: 14px;
+  line-height: 24px;
+  color: #666;
+}
+main .service .service-con .deta p:nth-of-type(2n-1) {
+  font-size: 20px;
+  line-height: 26px;
+  color: #333;
+}
+main .service .service-con .deta p:nth-of-type(2) {
+  padding: 24px 0 20px;
+  border-bottom: 1px solid #d9dbdf;
+}
+main .service .service-con .deta p:nth-of-type(3),
+main .service .service-con .deta p:nth-of-type(5) {
+  padding-left: 58px;
+  background: url(../img/bg_sign09.png) no-repeat 13px center;
+  margin: 26px 0 6px;
+  font-size: 18px;
+  line-height: 2;
+  color: #333;
+}
+main .service .service-con .deta p:nth-of-type(5) {
+  background: url(../img/bg_sign10.png) no-repeat 13px center;
+}
+main .train {
+  padding: 60px 0 108px;
+}
+main .train h2 {
+  text-align: center;
+  position: relative;
+}
+main .train h2:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: -11px;
+  width: 56px;
+  height: 2px;
+  background-color: #C2C2C2;
+  margin-left: -28px;
+}
+main .train .train-con .title {
+  width: 62.5%;
+  margin: 28px auto 40px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #666;
+  text-align: center;
+}
+main .train .train-con .title h3 {
+  font-size: 20px;
+  line-height: 2;
+  margin-bottom: 3px;
+  color: #333;
+}
+main .train .train-con .img-box img:first-child {
+  display: block;
+  width: 42%;
+}
+main .train .train-con .img-box img:last-child {
+  display: block;
+  width: 43%;
+}
+/* ***********媒体查询*************** */
+@media screen and (max-width: 1023px) {
+  main .service .service-con img {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  main .service .service-con .deta {
+    width: 100%;
+  }
+  main .train .train-con .img-box img {
+    width: 100% !important;
+    margin-bottom: 5%;
+  }
+}

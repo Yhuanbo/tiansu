@@ -1,0 +1,97 @@
+/* *********主体内容********* */
+main{
+	.con-list{
+		.item{
+			.fir{
+				width:310px;
+				height: 292px;
+				p{
+					background:#dedede url(../img/bg_sign05.png) no-repeat right center;
+					margin-top: 16px;
+					font-size:14px;
+					line-height: 38px;
+					color:#666;
+					text-align:center;
+					transition:all 0.5s;
+				}
+				&:hover{
+					p{
+						background-color:#d6000f;
+						color:#fff;
+					}
+				}
+			}
+			.fir,.in{
+				border:1px solid #e1e1e1;
+				transition:all 0.5s; 
+				a,img{
+					display:block;
+					width:100%;
+				}
+				&:hover{
+					border-color:#d6000f;
+				}
+			}
+			.in{
+				width: 143px;
+				height: 138px;
+				margin:0 0 14px 16px;
+				text-align:center;
+				a{
+					color:#666;
+					font-size:14px;
+					height:100%;
+					&:hover{
+						color:#d6000f;
+					}
+					p{
+						font-size:14px;
+						line-height: 2;
+					}
+					
+				}
+				img{
+					height:110px;
+				}
+				&:last-of-type{
+					a{
+						p{
+							background-color:#f4f4f4;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+/* ************媒体查询****************** */
+@media screen and (max-width:1366px){
+	main{
+		.con-list{
+			.wd{
+				width:956px;
+			}
+		}
+	}
+}
+@media screen and (max-width:1366px){
+	main{
+		.con-list{
+			.wd{
+				width:312px;
+			}
+			.item{
+				.in{
+					margin:0 0 15px 0;
+					&:nth-of-type(even){
+						float:right;
+					}
+				}
+				.fir{
+					margin-bottom: 15px;
+				}
+			}
+		}
+	}
+}

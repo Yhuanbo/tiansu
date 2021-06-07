@@ -1,0 +1,107 @@
+header nav .nav > ul > li {
+  background-color: transparent !important;
+}
+header nav .nav > ul > li:nth-of-type(7) {
+  background-color: #9c2727 !important;
+}
+
+/* ********主体内容********** */
+main{
+	.map-box{
+		padding:35px 0 8%;
+		.wd{
+			border:5px solid #e1e1e1;
+			box-sizing:border-box;
+			&:nth-of-type(2){
+				border:0;
+				margin-top: 32px;
+				.infor-box{
+					font-size:14px;
+					line-height: 30px;
+					color:#666;
+					.item{
+						&:first-of-type{
+							width:33%;
+							border-right:1px solid #e1e1e1;
+							margin-right:6%;
+						}
+						h2{
+							padding-left: 38px;
+							background:url(../img/bg_sign07.png) no-repeat left center;
+							margin-bottom: 12px;
+							font-size:18px;
+							line-height: 2;
+						}
+						.in{
+							padding:0 38px;
+							p{
+								span{
+									font-size:16px;
+								}
+								a{
+									color:#08c;
+									&:hover{
+										color:#006699;
+									}
+								}
+							}
+						}
+						&:nth-of-type(2){
+							width:calc(61% - 1px);
+							table{
+								width:100%;
+								tr{
+									td{
+										width:50%;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+/* *********媒体查询*************** */
+@media screen and (max-width:1366px){
+	main{
+		.wd{
+			width:90%;
+		}
+	}
+}
+@media screen and (max-width:1023px){
+	main {
+		.path{
+			.left{
+				display:block;
+				a,span{
+					padding:0 9px;
+					height: 40px;
+				}
+				img{
+					display:block;
+					height:100%;
+				}
+			}
+		}
+		.map-box{
+			.wd{
+				&:nth-of-type(2){
+					.infor-box{
+						.item{
+							width:100% !important;
+							border-right:0 !important;
+							border-bottom:1px solid #e1e1e1;
+							padding-bottom:6%;
+							margin-right: 0 !important;
+							margin-bottom:6%;
+						}
+					}
+				}
+			}
+		}
+	}
+}

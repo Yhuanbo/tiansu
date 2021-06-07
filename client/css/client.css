@@ -1,0 +1,82 @@
+header nav .nav > ul > li {
+  background-color: transparent !important;
+}
+header nav .nav > ul > li:nth-of-type(4) {
+  background-color: #9c2727 !important;
+}
+/* *******图片列表************* */
+main .path .right a:first-of-type {
+  color: #333;
+}
+main .path .right a:first-of-type::after {
+  display: block;
+}
+main .list-wrap {
+  padding: 45px 0 75px;
+  background-color: #f3f3f3;
+}
+main .list-wrap .list ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+main .list-wrap .list ul li {
+  width: 32%;
+  margin-bottom: 15px;
+}
+main .list-wrap .list ul li p {
+  border-top: 3px solid #d6000f;
+  padding: 3.5%;
+  padding-bottom: 4%;
+  font-size: 18px;
+  line-height: 2;
+  color: #666;
+  background-color: #fff;
+  transition: all 0.5s;
+}
+main .list-wrap .list ul li:hover p {
+  color: #d6000f;
+}
+main .list-wrap .list ul li:hover img {
+  transform: scale(1.1);
+}
+main .list-wrap .list ul li div.img {
+  overflow: hidden;
+}
+main .list-wrap .list ul li img {
+  display: block;
+  width: 100%;
+  transition: all 0.5s;
+}
+main .list-wrap .list .page {
+  text-align: center;
+  font-size: 0;
+  font-weight: bold;
+  line-height: 22px;
+}
+main .list-wrap .list .page a {
+  font-size: 12px;
+  padding: 3px 6px;
+  color: #8698b6;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding-bottom: 2px;
+  margin-right: 3px;
+}
+main .list-wrap .list .page a:hover,
+main .list-wrap .list .page a:first-of-type {
+  background-color: #D6000F;
+  border-color: #D6000F;
+  color: #fff;
+}
+/* ************媒体查询*********************** */
+@media screen and (max-width: 1366px) {
+  main .wd {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .list-wrap .list ul li {
+    width: 100%;
+  }
+}

@@ -1,0 +1,91 @@
+/*************主体内容******************* */
+main{
+	.con-list{
+		padding-top: 60px;
+		.item{
+			margin-bottom:4%;
+			.title{
+				height: 44px;
+				background-color:#dadada;
+				margin-bottom: 30px;
+				font-size:18px;
+				color:#fff;
+				line-height: 44px;
+				span{
+					display:inline-block;
+					width:164px;
+					background-color:#d6000f;
+					text-align:center;
+				}
+			}
+			ul{
+				li{
+					width:47.5%;
+					margin-bottom: 40px;
+					.img{
+						width:39%;
+					}
+					.tip{
+						width:58.4%;
+						a{
+							width:100%;
+							color:#666;
+							font-size:14px;
+							line-height: 24px;
+							transition:all 0.5s;
+							&:nth-of-type(1){
+								margin-bottom: 20px;
+								font-weight:bold;
+								line-height: 22px;
+								color:#666;
+							}
+							&:hover{
+								color:#d6000f;
+							}
+						}
+					}
+					a,img{
+						display:block;
+						width:100%;
+					}
+					img{
+						height:178px;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* **********媒体查询************** */
+@media screen and(max-width:1366px){
+	main{
+		.wd{
+			width:90%;
+		}
+	}
+}
+@media screen and (max-width:1023px){
+	main{
+		.con-list{
+			.item{
+				ul{
+					li{
+						float:none;
+						width:100%;
+						>div{
+							float:none;
+							width:100% !important;
+						}
+						.tip{
+							padding-top:5%;
+						}
+						img{
+							height:auto;
+						}
+					}
+				}
+			}
+		}
+	}
+}

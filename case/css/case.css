@@ -1,0 +1,9 @@
+header nav .nav > ul > li{
+	background-color:transparent !important;
+}
+header nav .nav > ul > li:nth-of-type(3) {
+  background-color: #9c2727 !important;
+}
+main .case {
+  padding: 0;
+}

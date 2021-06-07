@@ -1,0 +1,9 @@
+main .path .right a:first-of-type::after{
+	display:none;
+}
+main .path .right a:hover::after{
+	display:block;
+}
+main .path .right a:nth-of-type(2)::after{
+	display:block;
+}

@@ -1,0 +1,8 @@
+main .join-list table tr span{
+	padding-left:30%;
+}
+@media screen and (max-width:1200px){
+	main .join-list table tr span{
+		padding-left:10%;
+	}
+}
